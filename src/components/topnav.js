@@ -1,4 +1,7 @@
 
+import { menu_icon_src } from "../../assets/icons/menu.png";
+
+
 const topnav = document.getElementById("tmb-topnav");
 
 topnav.style = `
@@ -32,7 +35,7 @@ export const topNavTop = () => {
     `
 
     const menu_icon = document.createElement('img');
-    menu_icon.src = "../assets/icons/menu.png";
+    menu_icon.src = menu_icon_src;
     menu_icon.width = 30;
     menu_icon.setAttribute('id', 'menu_icon')
     menu_icon.style = `
@@ -89,7 +92,7 @@ export const topNavTop = () => {
     topnav_top.appendChild(menu_icon);
     topnav_top.appendChild(title)
     topnav_top.appendChild(search_bar);
-    
+
     return topnav_top;
 }
 

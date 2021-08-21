@@ -83,7 +83,7 @@ Any new ideas plz reach out.
 - Fork and add some features.
 - If you want to be added as a developer in this project, reach out too.
 
-email [jackkweyunga@gmail.com](jackkweyunga@gmail.com)
+email [jackkweyunga@gmail.com](https://jackkweyunga@gmail.com)
 
 # Liscence
 MIT

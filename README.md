@@ -8,7 +8,7 @@ It is easy to configure and use. Currently targeted for developers who want to i
 
 Add include this script
 ```html
-  <script src="https://cdn.jsdelivr.net/gh/jackkweyunga/jek-mobile-timetable/dist/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/jackkweyunga/jek-mobile-timetable/dist/jek-mobile-tmb.js"></script>
 ```
 
 In the section/page where you want to add this timetable, add this

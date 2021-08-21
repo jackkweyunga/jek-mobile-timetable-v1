@@ -4,9 +4,9 @@ module.exports = {
     entry: ['./src/index.js'],
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'jek-mobile-timetable.js',
+        filename: 'jek-mobile-tmb.js',
         library: {
-            name: 'jekmobiletimetable',
+            name: 'jekmobiletmb',
             type: 'umd',
         }
     },

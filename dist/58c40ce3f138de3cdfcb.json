@@ -1,0 +1,475 @@
+{
+    "url": "https://jtu-api.herokuapp.com/facultys/1/?format=json",
+    "courses_info": [
+        {
+            "url": "https://jtu-api.herokuapp.com/courses/39/?format=json",
+            "periods": [
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/1321/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/34/?format=json",
+                        "name": "CELAB",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Practical",
+                    "from_time": "14:00:00",
+                    "to_time": "14:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/34/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/39/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/821/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/34/?format=json",
+                        "name": "CELAB",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Practical",
+                    "from_time": "13:00:00",
+                    "to_time": "13:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/34/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/39/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/1065/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/34/?format=json",
+                        "name": "CELAB",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Practical",
+                    "from_time": "12:00:00",
+                    "to_time": "12:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/34/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/39/?format=json",
+                    "faculties": []
+                }
+            ],
+            "name": "",
+            "code": "SC112"
+        },
+        {
+            "url": "https://jtu-api.herokuapp.com/courses/72/?format=json",
+            "periods": [
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/1547/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/59/?format=json",
+                        "name": "COAF LR5",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Tuesday",
+                    "type": "Seminar",
+                    "from_time": "08:00:00",
+                    "to_time": "08:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/59/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/72/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/1549/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/59/?format=json",
+                        "name": "COAF LR5",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Tuesday",
+                    "type": "Seminar",
+                    "from_time": "10:00:00",
+                    "to_time": "10:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/59/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/72/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/862/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/42/?format=json",
+                        "name": "NKRUMAH HALL",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Lecture",
+                    "from_time": "11:00:00",
+                    "to_time": "11:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/42/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/72/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/913/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/69/?format=json",
+                        "name": "SC109",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Seminar",
+                    "from_time": "09:00:00",
+                    "to_time": "09:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/69/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/72/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/1013/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/87/?format=json",
+                        "name": "ALRB",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Seminar",
+                    "from_time": "07:00:00",
+                    "to_time": "07:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/87/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/72/?format=json",
+                    "faculties": []
+                }
+            ],
+            "name": "",
+            "code": "LL314"
+        },
+        {
+            "url": "https://jtu-api.herokuapp.com/courses/74/?format=json",
+            "periods": [
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/1169/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/10/?format=json",
+                        "name": "SR3",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Seminar",
+                    "from_time": "09:00:00",
+                    "to_time": "09:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/10/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/74/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/1193/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/48/?format=json",
+                        "name": "SR13",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Seminar",
+                    "from_time": "13:00:00",
+                    "to_time": "13:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/48/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/74/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/1180/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/82/?format=json",
+                        "name": "SR16",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Seminar",
+                    "from_time": "10:00:00",
+                    "to_time": "10:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/82/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/74/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/1419/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/18/?format=json",
+                        "name": "GLY1",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Seminar",
+                    "from_time": "13:00:00",
+                    "to_time": "13:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/18/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/74/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/864/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/59/?format=json",
+                        "name": "COAF LR5",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Seminar",
+                    "from_time": "14:00:00",
+                    "to_time": "14:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/59/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/74/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/878/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/16/?format=json",
+                        "name": "SR8",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Seminar",
+                    "from_time": "14:00:00",
+                    "to_time": "14:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/16/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/74/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/888/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/48/?format=json",
+                        "name": "SR13",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Seminar",
+                    "from_time": "10:00:00",
+                    "to_time": "10:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/48/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/74/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/934/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/10/?format=json",
+                        "name": "SR3",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Seminar",
+                    "from_time": "17:00:00",
+                    "to_time": "17:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/10/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/74/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/1088/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/33/?format=json",
+                        "name": "COAF LR6",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Seminar",
+                    "from_time": "13:00:00",
+                    "to_time": "13:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/33/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/74/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/920/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/72/?format=json",
+                        "name": "SR4",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Seminar",
+                    "from_time": "16:00:00",
+                    "to_time": "16:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/72/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/74/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/1048/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/25/?format=json",
+                        "name": "SR11",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Seminar",
+                    "from_time": "17:00:00",
+                    "to_time": "17:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/25/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/74/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/1108/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/86/?format=json",
+                        "name": "SR14",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Seminar",
+                    "from_time": "11:00:00",
+                    "to_time": "11:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/86/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/74/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/1120/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/20/?format=json",
+                        "name": "COAF LR8",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Seminar",
+                    "from_time": "12:00:00",
+                    "to_time": "12:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/20/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/74/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/1138/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/86/?format=json",
+                        "name": "SR14",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Seminar",
+                    "from_time": "09:00:00",
+                    "to_time": "09:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/86/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/74/?format=json",
+                    "faculties": []
+                },
+                {
+                    "url": "https://jtu-api.herokuapp.com/periods/1119/?format=json",
+                    "room_info": {
+                        "url": "https://jtu-api.herokuapp.com/rooms/48/?format=json",
+                        "name": "SR13",
+                        "longitude": null,
+                        "latitude": null,
+                        "capacity": null,
+                        "college": null
+                    },
+                    "day": "Monday",
+                    "type": "Seminar",
+                    "from_time": "11:00:00",
+                    "to_time": "11:55:00",
+                    "duration": null,
+                    "room": "https://jtu-api.herokuapp.com/rooms/48/?format=json",
+                    "course": "https://jtu-api.herokuapp.com/courses/74/?format=json",
+                    "faculties": []
+                }
+            ],
+            "name": "",
+            "code": "KF319"
+        }
+    ],
+    "college_info": {
+        "url": "https://jtu-api.herokuapp.com/colleges/1/?format=json",
+        "name": "College of Coict",
+        "short_form": "CoICT"
+    },
+    "name": "Bsc Electronics",
+    "college": "https://jtu-api.herokuapp.com/colleges/1/?format=json",
+    "courses": [
+        "https://jtu-api.herokuapp.com/courses/39/?format=json",
+        "https://jtu-api.herokuapp.com/courses/72/?format=json",
+        "https://jtu-api.herokuapp.com/courses/74/?format=json"
+    ]
+}

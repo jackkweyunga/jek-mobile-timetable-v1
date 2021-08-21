@@ -1,5 +1,7 @@
 
 import menu_icon_src from "../../assets/icons/menu.png";
+import refresh_icon_src from "../../assets/icons/refresh.png";
+
 
 const topnav = document.getElementById("tmb-topnav");
 
@@ -46,7 +48,7 @@ export const topNavTop = () => {
     `
 
     const refresh_icon = document.createElement('img');
-    refresh_icon.src = "../assets/icons/refresh.png";
+    refresh_icon.src = refresh_icon_src;
     refresh_icon.width = 20;
     refresh_icon.style = `
         padding: 2px;

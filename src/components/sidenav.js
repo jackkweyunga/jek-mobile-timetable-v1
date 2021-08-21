@@ -1,4 +1,8 @@
-
+import logo_icon_src from "../../assets/icons/Book icon3.png";
+import help_icon from "../../assets/icons/information.png"; 
+import a_day_icon from "../../assets/icons/two-rows-layout.png";
+import three_day_icon from "../../assets/icons/columns.png";
+import a_week from "../../assets/icons/weekly-calendar-outline-event-interface-symbol.png";
 
 const sidenav = document.getElementById("tmb-sidenav")
 
@@ -34,7 +38,7 @@ const sideLogo = () => {
         justify-content: center;
     `
     const logo_icon = document.createElement('img');
-    logo_icon.src = "../assets/icons/Book icon3.png";
+    logo_icon.src = logo_icon_src;
     logo_icon.style = `
         width: 100%;
         cursor: pointer;
@@ -57,9 +61,9 @@ const sideDetails = () =>  {
     `
 
     const items = [
-        {icon:"../../assets/icons/two-rows-layout.png", text:"a Day", id:"a_day"},
-        {icon:"../../assets/icons/columns.png", text:"3 Days", id:"three_day"},
-        {icon:"../../assets/icons/weekly-calendar-outline-event-interface-symbol.png", text:"the Week", id:"a_week"},
+        {icon:a_day_icon, text:"a Day", id:"a_day"},
+        {icon:three_day_icon, text:"3 Days", id:"three_day"},
+        {icon:a_week, text:"the Week", id:"a_week"},
     ]
 
     items.forEach( (item) => {
@@ -112,7 +116,7 @@ const sideFooter = () =>  {
     `
 
     let icon = document.createElement('img');
-    icon.src = "../assets/icons/information.png";
+    icon.src = help_icon;
     icon.width = 25;
 
     let text = document.createElement('label');

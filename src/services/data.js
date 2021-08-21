@@ -1,13 +1,11 @@
 
 
 import * as tmb from "../interfaces/faculty.js";
-
-const ghjson = "https://cdn.jsdelivr.net/gh/jackkweyunga/jek-mobile-timetable/assets/files/faculty.json";
+import ghjson from "../../assets/files/faculty.json";
 
 const faculty = new tmb.Faculty()
 
 export const Data = async () => {
-    // let data = await (await fetch('../../assets/files/faculty.json')).json();
     let data = await (await fetch(ghjson)).json();
 
     let faculty = new tmb.Faculty()

@@ -1,7 +1,6 @@
 
 import menu_icon_src from "../../assets/icons/menu.png";
 
-
 const topnav = document.getElementById("tmb-topnav");
 
 topnav.style = `

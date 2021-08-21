@@ -2,11 +2,11 @@
   "name": "tmtb",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/jek-mobile-timetable.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "fush":"git add . && git commit -m '...' && git push"
+    "fush": "git add . && git commit -m '...' && git push"
   },
   "author": "",
   "license": "ISC",

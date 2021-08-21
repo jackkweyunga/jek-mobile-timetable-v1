@@ -78,6 +78,12 @@ For the simplest use, your htm file will look like this.
 #### Fun Fact
 This project is an evolution from myudsmtimetable project which unfortunately is dead :smile:
 
+# Contribute
+Any new ideas plz reach out.
+- Fork and add some features.
+- If you want to be added as a developer in this project, reach out too.
+
+email [jackkweyunga@gmail.com](jackkweyunga@gmail.com)
 
 # Liscence
 MIT

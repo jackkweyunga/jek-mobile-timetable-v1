@@ -23,6 +23,36 @@ In the section/page where you want to add this timetable, add this
     </section>
 ```
 
+For the simplest use, your htm file will look like this.
+
+```html
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+
+    <section id="tmb">
+        <section id="tmb-sidenav"></section>
+        <section id="tmb-main">
+            <section id="tmb-topnav"></section>
+            <section id="tmb-content"></section>
+        </section>
+    </section>
+
+      
+    <!-- jek-mobile-timetable JavaScript Library -->
+    <script src="https://cdn.jsdelivr.net/gh/jackkweyunga/jek-mobile-timetable/dist/jek-mobile-tmb.js"></script>
+  </body>
+</html>
+
+```
+
 #### Something like this will be visible
 
 ![sample_timetable](https://user-images.githubusercontent.com/75433841/130313035-d4edfae6-a7be-44aa-b89a-130421fe935a.PNG)

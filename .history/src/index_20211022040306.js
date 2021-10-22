@@ -107,6 +107,6 @@ window.onresize = () => {
     responsiveness();
 }
 
-document.getElementById('faculty_search_input').addEventListener('input', (e)=>{
-    console.log(e.target.value);
+document.getElementById('faculty_search_input').addEventListener('change', (val, evt)=>{
+    console.log("changing");
 });

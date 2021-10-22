@@ -108,5 +108,5 @@ window.onresize = () => {
 }
 
 document.getElementById('faculty_search_input').addEventListener('input', (e)=>{
-    drawTimeTable(e.target.value);
+    drawTimeTable(e.target)
 });

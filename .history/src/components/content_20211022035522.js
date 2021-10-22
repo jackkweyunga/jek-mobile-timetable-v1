@@ -59,7 +59,7 @@ main_content_right.style = `
 
 // the function to draw the timetable
 
-export const drawTimeTable = async (fac) => {
+const drawTimeTable = async (fac) => {
 
     Data(fac).then(data => {
 

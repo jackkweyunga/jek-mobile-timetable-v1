@@ -59,7 +59,7 @@ main_content_right.style = `
 
 // the function to draw the timetable
 
-export const drawTimeTable = async (fac) => {
+const drawTimeTable = async (fac) => {
 
     Data(fac).then(data => {
 
@@ -227,4 +227,6 @@ main_content.appendChild(main_content_right)
 content.appendChild(top_content)
 content.appendChild(main_content)
 
+expo 
 export default content;
+

@@ -24,6 +24,8 @@ const faculty = new tmb.Faculty()
 export const Data = async (fac) => {
     // let data = await (await fetch(ghjson)).json();
 
+    let  = 'Bachelor of Science in Beekeeping Science and Technology (BSc BST)';
+
     let data = await (await (getFaculty(fac, "f1"))).data
 
 

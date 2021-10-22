@@ -21,8 +21,10 @@ var getFaculty = (name, year) => {
 
 const faculty = new tmb.Faculty()
 
-export const Data = async (fac) => {
+export const Data = async () => {
     // let data = await (await fetch(ghjson)).json();
+
+    let fac = 'Bachelor of Science in Beekeeping Science and Technology (BSc BST)';
 
     let data = await (await (getFaculty(fac, "f1"))).data
 
@@ -37,9 +39,9 @@ export const Data = async (fac) => {
     faculty.name = data['name']
 
     let cg = new tmb.collegeInfo()
-    cg.name = data["department_info"]["college_info"]["name"]
-    cg.shortForm = data["department_info"]["college_info"]['short_form']
-    cg.url = data["department_info"]["college_info"]['url']
+    cg.name = data["college_info"]["name"]
+    cg.shortForm = data["college_info"]['short_form']
+    cg.url = data["college_info"]['url']
 
     let cs = []
 

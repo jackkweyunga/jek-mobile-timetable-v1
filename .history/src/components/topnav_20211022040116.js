@@ -80,7 +80,7 @@ export const topNavTop = () => {
         align-items: center;
     `
     const search_input = document.createElement('input');
-    search_input.id = "faculty_search_input";
+    search_input.id = ""
     search_input.style = `
         border: 0;
         border-radius: 10px;

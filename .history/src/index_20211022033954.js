@@ -3,9 +3,10 @@
 
 import wrapper from "./components/wrapper.js";
 import main from "./components/main.js";
+import content from "./components/content.js";
 import topnav from "./components/topnav.js";
 import sidenav from "./components/sidenav.js";
-import { default as content, drawTimeTable } from "./components/content.js";
+import sea
 
 wrapper.appendChild(sidenav)
 wrapper.appendChild(main);
@@ -106,7 +107,3 @@ responsiveness();
 window.onresize = () => {
     responsiveness();
 }
-
-document.getElementById('faculty_search_input').addEventListener('keyup', ()=>{
-    console.log("changing");
-});

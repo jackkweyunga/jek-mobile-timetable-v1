@@ -3,7 +3,7 @@
 
 import wrapper from "./components/wrapper.js";
 import main from "./components/main.js";
-import topnav from "./components/topnav.js";
+import { default as topnav, topNavTop } from "./components/topnav.js";
 import sidenav from "./components/sidenav.js";
 import { default as content, drawTimeTable } from "./components/content.js";
 
@@ -107,6 +107,6 @@ window.onresize = () => {
     responsiveness();
 }
 
-document.getElementById('faculty_search_input').addEventListener('keyup', ()=>{
+document.getElementById('').addEventListener('keyup', ()=>{
     console.log("changing");
 });

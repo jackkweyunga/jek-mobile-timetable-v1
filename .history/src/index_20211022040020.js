@@ -107,6 +107,6 @@ window.onresize = () => {
     responsiveness();
 }
 
-document.getElementById('faculty_search_input').addEventListener('keyup', ()=>{
+document.getElementById('').addEventListener('keyup', ()=>{
     console.log("changing");
 });

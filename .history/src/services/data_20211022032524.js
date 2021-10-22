@@ -12,7 +12,7 @@ var getFaculty = (name, year) => {
     const url = `${api_root}search_faculty/`;
     var data = {
         "name": `${name} ${year}`,
-        "minimal": "False"
+        "minimal": "True"
     }
 
     return axios.post(url, data);
@@ -26,22 +26,22 @@ export const Data = async () => {
 
     let fac = 'Bachelor of Science in Beekeeping Science and Technology (BSc BST)';
 
-    let data = await (await (getFaculty(fac, "f1"))).data
+    let data = await (await (getFaculty(fac,data "f1"))).data
 
 
-    console.log(data);
+    console.log();
 
     let faculty = new tmb.Faculty()
 
     faculty.url = data["url"];
-    faculty.college = data["department_info"]["college_info"];
-    faculty.courses = data["courses_info"];
+    faculty.college = data["college"]
+    faculty.courses = data['courses']
     faculty.name = data['name']
 
-    // let cg = new tmb.collegeInfo()
-    // cg.name = data["college_info"]["name"]
-    // cg.shortForm = data["college_info"]['short_form']
-    // cg.url = data["college_info"]['url']
+    let cg = new tmb.collegeInfo()
+    cg.name = data["college_info"]["name"]
+    cg.shortForm = data["college_info"]['short_form']
+    cg.url = data["college_info"]['url']
 
     let cs = []
 

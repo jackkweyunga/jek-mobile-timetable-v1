@@ -12,7 +12,7 @@ var getFaculty = (name, year) => {
     const url = `${api_root}search_faculty/`;
     var data = {
         "name": `${name} ${year}`,
-        "minimal": "False"
+        "minimal": "True"
     }
 
     return axios.post(url, data);
@@ -38,10 +38,10 @@ export const Data = async () => {
     faculty.courses = data["courses_info"];
     faculty.name = data['name']
 
-    // let cg = new tmb.collegeInfo()
-    // cg.name = data["college_info"]["name"]
-    // cg.shortForm = data["college_info"]['short_form']
-    // cg.url = data["college_info"]['url']
+    let cg = new tmb.collegeInfo()
+    cg.name = data["college_info"]["name"]
+    cg.shortForm = data["college_info"]['short_form']
+    cg.url = data["college_info"]['url']
 
     let cs = []
 

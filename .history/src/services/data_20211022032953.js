@@ -12,7 +12,7 @@ var getFaculty = (name, year) => {
     const url = `${api_root}search_faculty/`;
     var data = {
         "name": `${name} ${year}`,
-        "minimal": "False"
+        "minimal": "True"
     }
 
     return axios.post(url, data);

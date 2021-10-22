@@ -34,14 +34,14 @@ export const Data = async () => {
     let faculty = new tmb.Faculty()
 
     faculty.url = data["url"];
-    faculty.college = data["department_info"]["college_info"];
-    faculty.courses = data["courses_info"];
+    faculty.college = data["college"]
+    faculty.courses = data['courses']
     faculty.name = data['name']
 
-    // let cg = new tmb.collegeInfo()
-    // cg.name = data["college_info"]["name"]
-    // cg.shortForm = data["college_info"]['short_form']
-    // cg.url = data["college_info"]['url']
+    let cg = new tmb.collegeInfo()
+    cg.name = data["college_info"]["name"]
+    cg.shortForm = data["college_info"]['short_form']
+    cg.url = data["college_info"]['url']
 
     let cs = []
 
@@ -54,7 +54,7 @@ export const Data = async () => {
 
         let ps = []
 
-        for (let per of i['periods']) {
+        for (let per of i['period_info']) {
             let p = new tmb.period();
             p.course = per["course"]
             p.day = per['day']

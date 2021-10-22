@@ -1,33 +1,16 @@
 
-import axios from "axios";
+
 import * as tmb from "../interfaces/faculty.js";
 import ghjson from "../../assets/files/faculty.json";
 
-const api_root = "https://jtu-api.herokuapp.com/api/v1/";
+const axios = require('axios');
 
-
-// a funnction to search for faculty from the api
-var getFaculty = (name, year) => {
-
-    const url = `${api_root}search_faculty/`;
-    var data = {
-        "name": `${name} ${year}`,
-        "minimal": "True"
-    }
-
-    return axios.post(url, data);
-};
-
+var dt = axios.post
 
 const faculty = new tmb.Faculty()
 
 export const Data = async () => {
-    // let data = await (await fetch(ghjson)).json();
-
-    let fac = 'Bachelor of Science in Beekeeping Science and Technology (BSc BST)';
-
-    let data = await (await (getFaculty(fac, "f1"))).data
-
+    let data = await (await fetch(ghjson)).json();
 
     let faculty = new tmb.Faculty()
 

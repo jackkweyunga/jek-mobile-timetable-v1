@@ -1,5 +1,5 @@
 
-import axios from "axios";
+
 import * as tmb from "../interfaces/faculty.js";
 import ghjson from "../../assets/files/faculty.json";
 
@@ -10,7 +10,7 @@ const api_root = "https://jtu-api.herokuapp.com/api/v1/";
 var getFaculty = (name, year) => {
 
     const url = `${api_root}search_faculty/`;
-    var data = {
+    data = {
         "name": `${name} ${year}`,
         "minimal": "True"
     }
@@ -24,9 +24,7 @@ const faculty = new tmb.Faculty()
 export const Data = async () => {
     // let data = await (await fetch(ghjson)).json();
 
-    let fac = 'Bachelor of Science in Beekeeping Science and Technology (BSc BST)';
-
-    let data = await (await (getFaculty(fac, "f1"))).data
+    let data = await (getFaculty(fac))
 
 
     let faculty = new tmb.Faculty()

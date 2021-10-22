@@ -1,5 +1,5 @@
 
-import axios from "axios";
+import axi
 import * as tmb from "../interfaces/faculty.js";
 import ghjson from "../../assets/files/faculty.json";
 
@@ -26,7 +26,7 @@ export const Data = async () => {
 
     let fac = 'Bachelor of Science in Beekeeping Science and Technology (BSc BST)';
 
-    let data = await (await (getFaculty(fac, "f1"))).data
+    let data = await (getFaculty(fac, "f1"))
 
 
     let faculty = new tmb.Faculty()

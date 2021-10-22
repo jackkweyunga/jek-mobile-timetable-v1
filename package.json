@@ -13,5 +13,8 @@
   "devDependencies": {
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "axios": "^0.23.0"
   }
 }

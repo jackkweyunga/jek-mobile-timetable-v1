@@ -5,67 +5,61 @@ import { Data } from "../services/data.js";
 
 const content = document.getElementById("tmb-content")
 
+const colors = ["#FFFF66", "#FF69B4", "#CF9FFF", "#ADD8E6",  "#FFF8DC","#ff9166", "66ffe8"]
+
+content.style = `
+    background: white;
+    flex: 1;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: auto;
+    position: relative;
+`
+
 const top_content = document.createElement('div');
 const main_content = document.createElement('div');
+
+top_content.style = `
+    display: flex;
+    position: sticky;
+    padding: 0;
+    top: 0;
+    z-index: 2;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 10px 0px #eee ;
+`
+
+main_content.style = `
+    display: flex;
+    height: 100%;
+    postion: relative;
+`
+
 
 const main_content_right = document.createElement('div');
 const main_content_left = document.createElement('div');
 
-const colors = ["#FFFF66", "#FF69B4", "#CF9FFF", "#ADD8E6", "#FFF8DC", "#ff9166", "#66ffe8", "#ef66ff"]
+main_content_left.style = `
+    flex :1;
+    background: white;
+    display: flex;
+    positinon: relative;
+`
 
-const make_styles = () => {
-    content.style = `
-        background: white;
-        flex: 1;
-        margin-bottom: 5px;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        overflow: auto;
-        position: relative;
-    `
-
-    top_content.style = `
-        display: flex;
-        position: sticky;
-        padding: 0;
-        top: 0;
-        z-index: 2;
-        margin-bottom: 15px;
-        box-shadow: 0px 3px 10px 0px #eee ;
-    `
-
-    main_content.style = `
-        display: flex;
-        height: 100%;
-        postion: relative;
-    `
-
-    main_content_left.style = `
-        flex :1;
-        background: white;
-        display: flex;
-        positinon: relative;
-    `
-
-    main_content_right.style = `
-        flex :1;
-        background: white;
-        max-width: 50px;
-        display: flex;
-        flex-direction: column;
-    `
-}
-
-make_styles();
+main_content_right.style = `
+    flex :1;
+    background: white;
+    max-width: 50px;
+    display: flex;
+    flex-direction: column;
+`
 
 // the function to draw the timetable
 
-export const drawTimeTable = async (fac, ndays = 5) => {
-    // console.log(fac);
-
-    // clear content first
-
+export const drawTimeTable = async (fac, ndays=5) => {
+    console.log(fac);
     Data(fac).then(data => {
 
         const bgcolors = []

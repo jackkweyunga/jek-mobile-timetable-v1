@@ -57,14 +57,15 @@ const make_styles = () => {
     `
 }
 
-make_styles();
-
 // the function to draw the timetable
 
 export const drawTimeTable = async (fac, ndays = 5) => {
     // console.log(fac);
 
     // clear content first
+    content.innerHTML = "";
+
+    make_styles();
 
     Data(fac).then(data => {
 

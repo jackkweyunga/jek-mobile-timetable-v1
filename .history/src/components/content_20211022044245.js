@@ -5,15 +5,9 @@ import { Data } from "../services/data.js";
 
 const content = document.getElementById("tmb-content")
 
-const top_content = document.createElement('div');
-const main_content = document.createElement('div');
+const colors = ["#FFFF66", "#FF69B4", "#CF9FFF", "#ADD8E6",  "#FFF8DC","#ff9166", "#66ffe8","#ef66ff"]
 
-const main_content_right = document.createElement('div');
-const main_content_left = document.createElement('div');
-
-const colors = ["#FFFF66", "#FF69B4", "#CF9FFF", "#ADD8E6", "#FFF8DC", "#ff9166", "#66ffe8", "#ef66ff"]
-
-const make_styles = () => {
+const make_style = ()
     content.style = `
         background: white;
         flex: 1;
@@ -24,6 +18,9 @@ const make_styles = () => {
         overflow: auto;
         position: relative;
     `
+
+    const top_content = document.createElement('div');
+    const main_content = document.createElement('div');
 
     top_content.style = `
         display: flex;
@@ -41,6 +38,10 @@ const make_styles = () => {
         postion: relative;
     `
 
+
+    const main_content_right = document.createElement('div');
+    const main_content_left = document.createElement('div');
+
     main_content_left.style = `
         flex :1;
         background: white;
@@ -55,16 +56,14 @@ const make_styles = () => {
         display: flex;
         flex-direction: column;
     `
-}
-
-make_styles();
 
 // the function to draw the timetable
 
-export const drawTimeTable = async (fac, ndays = 5) => {
+export const drawTimeTable = async (fac, ndays=5) => {
     // console.log(fac);
 
     // clear content first
+    content.innerHTML = "";
 
     Data(fac).then(data => {
 

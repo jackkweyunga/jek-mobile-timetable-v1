@@ -5,15 +5,11 @@ import { Data } from "../services/data.js";
 
 const content = document.getElementById("tmb-content")
 
-const top_content = document.createElement('div');
-const main_content = document.createElement('div');
 
-const main_content_right = document.createElement('div');
-const main_content_left = document.createElement('div');
 
 const colors = ["#FFFF66", "#FF69B4", "#CF9FFF", "#ADD8E6", "#FFF8DC", "#ff9166", "#66ffe8", "#ef66ff"]
 
-const make_styles = () => {
+const make_style = () => {
     content.style = `
         background: white;
         flex: 1;
@@ -57,14 +53,13 @@ const make_styles = () => {
     `
 }
 
-make_styles();
-
 // the function to draw the timetable
 
 export const drawTimeTable = async (fac, ndays = 5) => {
     // console.log(fac);
 
     // clear content first
+    content.innerHTML = "";
 
     Data(fac).then(data => {
 

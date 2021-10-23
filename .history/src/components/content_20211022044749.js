@@ -65,6 +65,7 @@ export const drawTimeTable = async (fac, ndays = 5) => {
     // console.log(fac);
 
     // clear content first
+    content.innerHTML = "";
 
     Data(fac).then(data => {
 

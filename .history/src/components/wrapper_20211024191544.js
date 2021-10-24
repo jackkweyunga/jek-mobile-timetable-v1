@@ -4,7 +4,7 @@ const wrapper = document.getElementById("tmb");
 wrapper.style = `
     position: relative;
     min-height: 100vh;
-    width: 100%; 
+    width: 90%; 
     display: flex;
     margin:0;
     border-radius: 10px;

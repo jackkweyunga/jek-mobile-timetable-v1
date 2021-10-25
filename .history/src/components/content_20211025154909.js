@@ -146,17 +146,17 @@ export const drawTimeTable = async (fac, ndays = 5, type = 'Seminar') => {
                 title.style.width = '';
                 title.style.boxShadow = 'inset 0 0 0 #000';
                 title.innerHTML = `
-                    <label style="
-                        flex: 1;
-                        height: 100%;
-                        display: flex;
-                        z-index: 2;
-                        align-items: center;
-                        justify-content: center;
-                        font-size: 12px;
-                        color: #999;
-                    ">${days[i]}</label>
-                    `;
+                <label style="
+                    flex: 1;
+                    height: 100%;
+                    display: flex;
+                    z-index: 2;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 12px;
+                    color: #999;
+                ">${days[i]}</label>
+                `;
                 top_content.appendChild(title)
 
                 let i_for_colors = 0;
@@ -281,9 +281,9 @@ export const drawTimeTable = async (fac, ndays = 5, type = 'Seminar') => {
 
         }
     })
-    .catch((err) => {
-        console.log(err);
-    })
+        .catch((err) => {
+            console.log(err);
+        })
 }
 
 

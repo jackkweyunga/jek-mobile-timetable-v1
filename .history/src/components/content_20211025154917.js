@@ -281,9 +281,9 @@ export const drawTimeTable = async (fac, ndays = 5, type = 'Seminar') => {
 
         }
     })
-    .catch((err) => {
-        console.log(err);
-    })
+        .catch((err) => {
+            console.log(err);
+        })
 }
 
 

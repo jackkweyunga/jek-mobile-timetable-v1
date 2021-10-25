@@ -28,11 +28,6 @@ export const Data = async (fac) => {
 
     // console.log(data);
 
-    // check for a not found message 
-    if (data["message"] !== undefined) {
-        return null;
-    }
-
     let faculty = new tmb.Faculty()
 
     faculty.url = data["url"];

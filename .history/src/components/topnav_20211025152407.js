@@ -85,7 +85,7 @@ export const topNavTop = () => {
         border: 0;
         border-radius: 10px;
         padding: 5px;
-    `;
+    `
     search_input.placeholder = "search faculty"
 
     search_bar.appendChild(search_input)

@@ -10,7 +10,7 @@ topnav.style = `
             background: white;
             height: auto;
             position: sticky;
-            display: flex; `;
+            dispay: flex; `
 
 // bottom
 export const topNavBottom = () => {
@@ -85,14 +85,14 @@ export const topNavTop = () => {
         border: 0;
         border-radius: 10px;
         padding: 5px;
-    `;
+    `
     search_input.placeholder = "search faculty"
 
     search_bar.appendChild(search_input)
     search_bar.appendChild(refresh_icon)
 
     topnav_top.appendChild(menu_icon);
-    topnav_top.appendChild(title);
+    topnav_top.appendChild(title)
     topnav_top.appendChild(search_bar);
 
     return topnav_top;

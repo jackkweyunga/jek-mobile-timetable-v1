@@ -26,12 +26,8 @@ export const Data = async (fac) => {
 
     let data = await (await (getFaculty(fac, "f1"))).data
 
-    // console.log(data);
 
-    // check for a not found message 
-    if (data["message"] !== undefined) {
-        return null;
-    }
+    // console.log(data);
 
     let faculty = new tmb.Faculty()
 

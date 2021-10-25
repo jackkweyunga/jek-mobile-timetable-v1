@@ -30,7 +30,7 @@ export const Data = async (fac) => {
 
     // check for a not found message 
     if (data["message"] !== undefined) {
-        return null;
+        return null
     }
 
     let faculty = new tmb.Faculty()

@@ -103,7 +103,7 @@ const sideDetails = () => {
 
         nav.setAttribute('id', item.id);
         nav.style = `
-            padding: 10px;
+            padding: 5px;
             border-radius:0px;
             margin-top: 5px;
             display: flex;

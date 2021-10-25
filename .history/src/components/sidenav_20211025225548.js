@@ -56,7 +56,7 @@ const sideDetails = () => {
 
     cont.style = `
         margin-top: 0px;
-        padding: 0px;
+        padding: 3px;
         flex: 1;
     `
 
@@ -103,9 +103,8 @@ const sideDetails = () => {
 
         nav.setAttribute('id', item.id);
         nav.style = `
-            padding: 10px;
+            padding: 5px;
             border-radius:0px;
-            margin-top: 5px;
             display: flex;
             flex: 1;
             justify-content: space-arround;
@@ -126,7 +125,7 @@ const sideDetails = () => {
         text.style = `
             margin-left: 10px;
             color: #777;
-        `
+        `;
 
         nav.appendChild(icon);
         nav.appendChild(text);

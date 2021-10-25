@@ -37,7 +37,7 @@ const Ttypes = ["Lecture", "Seminar", "Practical", "Tutorial"];
 
 sidenavs.forEach((item) => {
     item.addEventListener('click', () => {
-        console.log(n_map[item.lastChild.id], n_map);
+        console.log(n_map[item.lastChild.id], n);
 
         if (n_map[item.lastChild.id] !== undefined) {
             console.log(item.lastChild.id);

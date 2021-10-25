@@ -31,20 +31,21 @@ document.getElementById('faculty_search_input').addEventListener('input', (e) =>
     search_value = e.target.value;
 });
 
-const n_map = { "a_day": 1, "three_days": 3, "a_week": 5 }
+const n_map = {
+    "a_day": 1, three_days: 3, a_week: 5
+}
 
-const Ttypes = ["Lecture", "Seminar", "Practical", "Tutorial"];
+const Ttypes = ["Lecture","Seminar","Practical","Tutorial"];
 
 sidenavs.forEach((item) => {
     item.addEventListener('click', () => {
-        console.log(n_map[item.lastChild.id], n_map);
+        // console.log("clicked");
 
-        if (n_map[item.lastChild.id] !== undefined) {
-            console.log(item.lastChild.id);
-            console.log(n_map);
+        if (n_map[item.lastChild] !== undefined) {
+            console.log(item.lastChild.textContent);
         };
 
-        if (Ttypes.indexOf(item.lastChild.textContent) > -1) {
+        if (Ttype.indexOf(item.lastChild.textContent)) {
             console.log(item.lastChild.textContent);
         };
 

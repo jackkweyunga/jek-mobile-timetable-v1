@@ -15,7 +15,7 @@ main.appendChild(content)
 
 var ndays = 5;
 var Ttype = "Lecture";
-var search_value = "";
+var search
 
 const sidenavs = document.getElementById('side_details').childNodes;
 
@@ -26,29 +26,17 @@ function unClickAll() {
     })
 }
 
-document.getElementById('faculty_search_input').addEventListener('input', (e) => {
-    drawTimeTable(e.target.value, ndays, Ttype);
-    search_value = e.target.value;
-});
+const n_map = {
+    a_day: 1, three_days: 3, a_week: 5
+}
 
-const n_map = { "a_day": 1, "three_days": 3, "a_week": 5 }
-
-const Ttypes = ["Lecture", "Seminar", "Practical", "Tutorial"];
+const Ttypes = ["Lecture","Seminar","Practical","Tutorial"]
 
 sidenavs.forEach((item) => {
     item.addEventListener('click', () => {
-        console.log(n_map[item.lastChild.id], n_map);
+        // console.log("clicked");
 
-        if (n_map[item.lastChild.id] !== undefined) {
-            console.log(item.lastChild.id);
-            console.log(n_map);
-        };
 
-        if (Ttypes.indexOf(item.lastChild.textContent) > -1) {
-            console.log(item.lastChild.textContent);
-        };
-
-        // unclick all
         unClickAll();
         item.style.background = '#081126';
         item.style.color = "#FFFFFF";
@@ -132,3 +120,7 @@ window.onresize = () => {
     responsiveness();
 }
 
+document.getElementById('faculty_search_input').addEventListener('input', (e) => {
+    drawTimeTable(e.target.value, ndays, Ttype);
+    document
+});

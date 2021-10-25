@@ -56,7 +56,7 @@ const sideDetails = () => {
 
     cont.style = `
         margin-top: 0px;
-        padding: 0px;
+        padding: 3px;
         flex: 1;
     `
 
@@ -104,7 +104,7 @@ const sideDetails = () => {
         nav.setAttribute('id', item.id);
         nav.style = `
             padding: 10px;
-            border-radius:0px;
+            border-radius:5px;
             margin-top: 5px;
             display: flex;
             flex: 1;

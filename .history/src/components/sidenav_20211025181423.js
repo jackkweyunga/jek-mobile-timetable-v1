@@ -7,7 +7,7 @@ import a_week from "../../assets/icons/weekly-calendar-outline-event-interface-s
 const sidenav = document.getElementById("tmb-sidenav")
 
 sidenav.style = `
-    width: 250px;
+    width: 150px;
     margin-right: 0px;
     z-index: 3;
     background: #323A4C;
@@ -56,7 +56,7 @@ const sideDetails = () => {
 
     cont.style = `
         margin-top: 0px;
-        padding: 0px;
+        padding: 3px;
         flex: 1;
     `
 
@@ -92,10 +92,10 @@ const sideDetails = () => {
         { icon: icon_day, text: "Day", id: "a_day" },
         { icon: icon_three_days, text: "3 Days", id: "three_days" },
         { icon: icon_week, text: "Week", id: "a_week" },
-        { icon: icon_lectures, text: "Lecture", id: "Lecture" },
-        { icon: icon_practicals, text: "Practical", id: "Practical" },
-        { icon: icon_tutorials, text: "Tutorial", id: "Tutorial" },
-        { icon: icon_seminars, text: "Seminar", id: "Seminar" },
+        { icon: icon_lectures, text: "Lectures", id: "Lectures" },
+        { icon: icon_practicals, text: "Practicals", id: "Practicals" },
+        { icon: icon_tutorials, text: "Tutorials", id: "Tutorials" },
+        { icon: icon_seminars, text: "Seminars", id: "Seminars" },
     ]
 
     items.forEach((item) => {
@@ -104,7 +104,7 @@ const sideDetails = () => {
         nav.setAttribute('id', item.id);
         nav.style = `
             padding: 10px;
-            border-radius:0px;
+            border-radius:5px;
             margin-top: 5px;
             display: flex;
             flex: 1;

@@ -18,7 +18,6 @@ const sidenavs = document.getElementById('side_details').childNodes;
 function unClickAll() {
     sidenavs.forEach((item) => {
         item.style.background = 'inherit';
-        item.style.cursor = "pointer";
     })
 }
 

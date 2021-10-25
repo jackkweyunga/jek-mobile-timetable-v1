@@ -73,6 +73,9 @@ export const topNavTop = () => {
 
     const search_bar = document.createElement('div');
     search_bar.style = `
+        -moz-box-shadow: inset 0 0 5px #ddd;
+        -webkit-box-shadow: inset 0 0 5px #ddd;
+        box-shadow: inset 0px 1px 1px #ddd;
         background: inherit;
         color: #FFFFFF;
         padding: 0px;
@@ -91,7 +94,7 @@ export const topNavTop = () => {
         border: 0;
         border-radius: 10px;
         padding: 5px;
-        flex: 1;
+        min-width: 70%;
     `;
     search_input.placeholder = "search faculty"
 

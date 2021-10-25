@@ -17,8 +17,8 @@ const sidenavs = document.getElementById('side_details').childNodes;
 
 function unClickAll() {
     sidenavs.forEach((item) => {
+        item.style.boxShadow = '0px 0px 0px 0px #eee';
         item.style.background = 'inherit';
-        item.style.cursor = "pointer";
     })
 }
 
@@ -28,7 +28,6 @@ sidenavs.forEach((item) => {
         unClickAll();
         item.style.background = '#081126';
         item.style.color = "#FFFFFF";
-        item.style.cursor = "pointer";
     })
 })
 

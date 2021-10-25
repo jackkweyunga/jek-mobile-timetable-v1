@@ -89,13 +89,14 @@ const sideDetails = () => {
 
 
     const items = [
-        { icon: icon_day, text: "Day", id: "a_day" },
+        { icon: icon_day, text: "a Day", id: "a_day" },
         { icon: icon_three_days, text: "3 Days", id: "three_day" },
-        { icon: icon_week, text: "Week", id: "a_week" },
+        { icon: icon_week, text: "the Week", id: "a_week" },
         { icon: icon_lectures, text: "Lectures", id: "Lectures" },
         { icon: icon_practicals, text: "Practicals", id: "Practicals" },
         { icon: icon_tutorials, text: "Tutorials", id: "Tutorials" },
         { icon: icon_seminars, text: "Seminars", id: "Seminars" },
+
     ]
 
     items.forEach((item) => {

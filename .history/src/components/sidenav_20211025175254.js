@@ -1,5 +1,5 @@
 import logo_icon_src from "../../assets/icons/Book icon3.png";
-import help_icon from "../../assets/icons/information.png";
+import help_icon from "../../assets/icons/information.png"; 
 import a_day_icon from "../../assets/icons/two-rows-layout.png";
 import three_day_icon from "../../assets/icons/columns.png";
 import a_week from "../../assets/icons/weekly-calendar-outline-event-interface-symbol.png";
@@ -50,7 +50,7 @@ const sideLogo = () => {
 
 
 // navs and so on
-const sideDetails = () => {
+const sideDetails = () =>  {
     const cont = document.createElement('div');
     cont.setAttribute('id', 'side_details')
 
@@ -89,20 +89,21 @@ const sideDetails = () => {
 
 
     const items = [
-        { icon: icon_day, text: "Day", id: "a_day" },
-        { icon: icon_three_days, text: "3 Days", id: "three_day" },
-        { icon: icon_week, text: "Week", id: "a_week" },
-        { icon: icon_lectures, text: "Lectures", id: "Lectures" },
-        { icon: icon_practicals, text: "Practicals", id: "Practicals" },
-        { icon: icon_tutorials, text: "Tutorials", id: "Tutorials" },
-        { icon: icon_seminars, text: "Seminars", id: "Seminars" },
+        {icon:ico, text:"a Day", id:"a_day"},
+        {icon:icon_three_days, text:"3 Days", id:"three_day"},
+        {icon:icon_week, text:"the Week", id:"a_week"},
+        {icon:icon_lectures, text:"Lectures", id:"Lectures"},
+        {icon:icon_practicals, text:"Practicals", id:"Practicals"},
+        {icon:icon_tutorials, text:"Tutorials", id:"Tutorials"},
+        {icon:icon_seminars, text:"Seminars", id:"Seminars"},
+
     ]
 
-    items.forEach((item) => {
+    items.forEach( (item) => {
         const nav = document.createElement('nav');
 
         nav.setAttribute('id', item.id);
-        nav.style = `
+        nav.style =`
             padding: 10px;
             border-radius:5px;
             margin-top: 5px;
@@ -117,13 +118,10 @@ const sideDetails = () => {
         let icon = document.createElement('div');
         icon.innerHTML = item.icon;
         icon.width = 20;
-        icon.style = `
-            color: #FFFFFF;
-        `;
 
         let text = document.createElement('label');
         text.innerText = item.text;
-        text.style = `
+        text.style =   `
             margin-left: 10px;
             color: #777;
         `
@@ -139,7 +137,7 @@ const sideDetails = () => {
 }
 
 // side footer
-const sideFooter = () => {
+const sideFooter = () =>  {
     const cont = document.createElement('div');
     cont.setAttribute('id', 'side_footer')
 
@@ -156,13 +154,13 @@ const sideFooter = () => {
 
     let text = document.createElement('label');
     text.innerText = "Feedback & Help";
-    text.style = `
+    text.style =   `
         padding-left: 10px;
         font-size: .8rem;
     `
 
     const nav = document.createElement('nav');
-    nav.style = `
+    nav.style =`
         padding: 10px;
         display: flex;
         flex: 1;

@@ -89,7 +89,7 @@ const sideDetails = () => {
 
 
     const items = [
-        { icon: icon_day, text: "Day", id: "a_day" },
+        { icon: icon_day, text: "a Day", id: "a_day" },
         { icon: icon_three_days, text: "3 Days", id: "three_day" },
         { icon: icon_week, text: "Week", id: "a_week" },
         { icon: icon_lectures, text: "Lectures", id: "Lectures" },

@@ -34,7 +34,6 @@ export const topNavTop = () => {
         background: inherit;
         min-height: 5px; 
         align-items: center;
-        width: 100%;
     `
 
     const menu_icon = document.createElement('img');
@@ -47,21 +46,17 @@ export const topNavTop = () => {
         margin-left: 5px;
         margin-right: 5px;
         cursor: pointer;
-        background-color: #FFFFFF;
-        border-radius: 10px;
-
+        background-color: 
     `
 
     const refresh_icon = document.createElement('img');
     refresh_icon.src = refresh_icon_src;
-    refresh_icon.width = 30;
+    refresh_icon.width = 20;
     refresh_icon.style = `
         padding: 2px;
         margin-left: 5px;
         margin-right: 5px;
         cursor: pointer;
-        background-color: #FFFFFF;
-        border-radius: 100%;
     `
     const title = document.createElement('div');
     title.style = `
@@ -73,17 +68,18 @@ export const topNavTop = () => {
 
     const search_bar = document.createElement('div');
     search_bar.style = `
-        background: inherit;
-        color: #FFFFFF;
-        padding: 0px;
+        -moz-box-shadow: inset 0 0 5px #ddd;
+        -webkit-box-shadow: inset 0 0 5px #ddd;
+        box-shadow: inset 0px 1px 1px #ddd;
+        background: white;
+        padding: 5px;
         overflow: hidden;
         margin-left: 10px;
         margin-right: 10px;
         border-radius: 10px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        width: 100%;
     `
     const search_input = document.createElement('input');
     search_input.id = "faculty_search_input";
@@ -91,7 +87,6 @@ export const topNavTop = () => {
         border: 0;
         border-radius: 10px;
         padding: 5px;
-        flex: 1;
     `;
     search_input.placeholder = "search faculty"
 

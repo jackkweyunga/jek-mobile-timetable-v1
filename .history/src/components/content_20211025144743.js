@@ -202,11 +202,11 @@ export const drawTimeTable = async (fac, ndays = 5) => {
                                         height: ${height}px;
                                         width: 100%;
                                         color: #FFFFFF;
-                                        margin: 10px;
+                                        
                                         justify-content: center;
                                         align-items: flex-top;
                                     ">
-                                    ${course.code} ${period.type} <br>${start} - ${end}
+                                    ${course.code} ${period.type} : ${start} - ${end}
                                     </div>
                                     `;
                                 lb.style = `
@@ -214,6 +214,7 @@ export const drawTimeTable = async (fac, ndays = 5) => {
                                     background: ${bgcolor};
                                     flex:1;
                                     width: 100%;
+                                    box-shadow: 0px 3px 10px 0px #eee ;
                                     z-index: 1;
                                     top: ${top}px;
                                     min-height: ${height}px;

@@ -59,7 +59,7 @@ const main_content_left = document.createElement('div');
 
 // const colors = ["#FF69B4", "#CF9FFF", "#ADD8E6", "#FFF8DC", "#ff9166", "#66ffe8", "#ef66ff"]
 
-const colors = ["#d520b7 50%","#a03d1a 50%","#8c2e4f 50%","#771f84","#8462bc","#5688c7","#f97910","#24466b","#16253b"]
+const colors = ["#d520b7 50%","#a03d1a 50%","#8c2e4f ","#771f84","#8462bc","#5688c7","#f97910","#24466b","#16253b"]
 
 const make_styles = () => {
     content.style = `
@@ -201,12 +201,10 @@ export const drawTimeTable = async (fac, ndays = 5) => {
                                         display:flex;
                                         height: ${height}px;
                                         width: 100%;
-                                        color: #FFFFFF;
-                                        margin: 10px;
                                         justify-content: center;
                                         align-items: flex-top;
                                     ">
-                                    ${course.code} ${period.type} <br>${start} - ${end}
+                                    ${course.code} ${period.type} : ${start} - ${end}
                                     </div>
                                     `;
                                 lb.style = `
@@ -214,6 +212,7 @@ export const drawTimeTable = async (fac, ndays = 5) => {
                                     background: ${bgcolor};
                                     flex:1;
                                     width: 100%;
+                                    box-shadow: 0px 3px 10px 0px #eee ;
                                     z-index: 1;
                                     top: ${top}px;
                                     min-height: ${height}px;

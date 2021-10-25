@@ -49,7 +49,7 @@ sidenavs.forEach((item) => {
         if (Ttypes.indexOf(item.lastChild.textContent) > -1) {
             // console.log(item.lastChild.textContent);
             Ttype = item.lastChild.textContent;
-            drawTimeTable(search_value, ndays, Ttype);
+            drawTimeTable(e.target.value, ndays, Ttype);
 
         };
 

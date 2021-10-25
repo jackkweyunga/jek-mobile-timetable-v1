@@ -37,20 +37,15 @@ const Ttypes = ["Lecture", "Seminar", "Practical", "Tutorial"];
 
 sidenavs.forEach((item) => {
     item.addEventListener('click', () => {
-        // console.log(item.id, n_map);
+        console.log(item.id, n_map);
 
-        if (n_map[item.id] !== undefined) {
-            // console.log(item.lastChild.textContent);
-            ndays = n_map[item.id];
-            drawTimeTable(search_value, ndays, Ttype);
-        
+        if (n_map[item.lastChild.id] !== undefined) {
+            console.log(item.lastChild.id);
+            console.log(n_map);
         };
 
         if (Ttypes.indexOf(item.lastChild.textContent) > -1) {
-            // console.log(item.lastChild.textContent);
-            Ttype = item.lastChild.textContent;
-            drawTimeTable(search_value, ndays, Ttype);
-
+            console.log(item.lastChild.textContent);
         };
 
         // unclick all

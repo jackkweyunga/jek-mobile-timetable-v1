@@ -41,16 +41,11 @@ sidenavs.forEach((item) => {
 
         if (n_map[item.id] !== undefined) {
             // console.log(item.lastChild.textContent);
-            ndays = n_map[item.id];
-            drawTimeTable(search_value, ndays, Ttype);
-        
+            ndays = 
         };
 
         if (Ttypes.indexOf(item.lastChild.textContent) > -1) {
-            // console.log(item.lastChild.textContent);
-            Ttype = item.lastChild.textContent;
-            drawTimeTable(search_value, ndays, Ttype);
-
+            console.log(item.lastChild.textContent);
         };
 
         // unclick all

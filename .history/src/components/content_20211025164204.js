@@ -49,8 +49,22 @@ function checkForCollision(key, value, day) {
     console.log(colls);
 }
 
-var content = document.getElementById("tmb-content")
-content.style = `
+const content = document.getElementById("tmb-content")
+
+
+// const colors = ["#FF69B4", "#CF9FFF", "#ADD8E6", "#FFF8DC", "#ff9166", "#66ffe8", "#ef66ff"]
+
+const colors = ["#d520b7 50%", "#a03d1a 50%", "#8c2e4f 50%", "#771f84", "#8462bc", "#5688c7", "#f97910", "#24466b", "#16253b"]
+
+const make_styles = () => {
+
+    const top_content = document.createElement('div');
+    const main_content = document.createElement('div');
+
+    const main_content_right = document.createElement('div');
+    const main_content_left = document.createElement('div');
+
+    content.style = `
         background: white;
         flex: 1;
         margin-bottom: 5px;
@@ -60,12 +74,6 @@ content.style = `
         overflow: auto;
         position: relative;
     `;
-
-// const colors = ["#FF69B4", "#CF9FFF", "#ADD8E6", "#FFF8DC", "#ff9166", "#66ffe8", "#ef66ff"]
-
-const colors = ["#d520b7 50%", "#a03d1a 50%", "#8c2e4f 50%", "#771f84", "#8462bc", "#5688c7", "#f97910", "#24466b", "#16253b"]
-
-var make_styles = (top_content, main_content, main_content_right, main_content_left) => {
 
     top_content.style = `
         display: flex;
@@ -107,13 +115,8 @@ export const drawTimeTable = async (fac, ndays = 5, type = 'Seminar') => {
 
         if (data !== null | undefined) {
 
-            var top_content = document.createElement('div');
-            var main_content = document.createElement('div');
-
-            var main_content_right = document.createElement('div');
-            var main_content_left = document.createElement('div');
-
-            make_styles(top_content, main_content, main_content_right, main_content_left);
+            make_styles();
+            make_styles();
 
             const bgcolors = []
 
@@ -277,7 +280,6 @@ export const drawTimeTable = async (fac, ndays = 5, type = 'Seminar') => {
             main_content.appendChild(main_content_left)
             main_content.appendChild(main_content_right)
 
-            content.innerHTML = "";
             content.appendChild(top_content)
             content.appendChild(main_content)
         }

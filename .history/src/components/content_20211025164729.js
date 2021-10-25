@@ -49,7 +49,7 @@ function checkForCollision(key, value, day) {
     console.log(colls);
 }
 
-var content = document.getElementById("tmb-content")
+const content = document.getElementById("tmb-content")
 content.style = `
         background: white;
         flex: 1;
@@ -65,7 +65,9 @@ content.style = `
 
 const colors = ["#d520b7 50%", "#a03d1a 50%", "#8c2e4f 50%", "#771f84", "#8462bc", "#5688c7", "#f97910", "#24466b", "#16253b"]
 
-var make_styles = (top_content, main_content, main_content_right, main_content_left) => {
+const make_styles = (top_content, main_content, main_content_right, main_content_left) => {
+
+
 
     top_content.style = `
         display: flex;
@@ -277,7 +279,6 @@ export const drawTimeTable = async (fac, ndays = 5, type = 'Seminar') => {
             main_content.appendChild(main_content_left)
             main_content.appendChild(main_content_right)
 
-            content.innerHTML = "";
             content.appendChild(top_content)
             content.appendChild(main_content)
         }

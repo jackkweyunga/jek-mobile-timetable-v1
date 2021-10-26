@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 1199px) {
   #main {
-    padding: 0px;
+    padding: 20px;
   }
 }
 
@@ -55,6 +55,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   color: #012970;
 }
+
+
 
 /*--------------------------------------------------------------
 # Override some default Bootstrap stylings
@@ -143,7 +145,6 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0;
   }
 }
-
 /* Light Backgrounds */
 .bg-primary-light {
   background-color: #cfe2ff;

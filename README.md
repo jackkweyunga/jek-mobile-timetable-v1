@@ -22,9 +22,21 @@ It is easy to configure and use. Currently targeted for developers who want to i
 
 #### in your htm file eg. index.html
 
-Add the following style to the header tag
+Add the following styles to the header tag
 ```html
-<link href="https://cdn.jsdelivr.net/gh/jackkweyunga/jek-mobile-timetable/assets/css/tmb.css" rel="stylesheet">
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- bootstrap icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+
+    <!-- jek-mobile-timetable css Library -->
+    <link href="https://cdn.jsdelivr.net/gh/jackkweyunga/jek-mobile-timetable/assets/css/tmb.css" rel="stylesheet">
 ```
 
 Add include this script
@@ -45,11 +57,17 @@ For the simplest use, your htm file will look like this.
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- bootstrap icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+
     <!-- jek-mobile-timetable css Library -->
     <link href="https://cdn.jsdelivr.net/gh/jackkweyunga/jek-mobile-timetable/assets/css/tmb.css" rel="stylesheet">
     

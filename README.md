@@ -22,6 +22,11 @@ It is easy to configure and use. Currently targeted for developers who want to i
 
 #### in your htm file eg. index.html
 
+Add the following style to the header tag
+```html
+<link href="https://cdn.jsdelivr.net/gh/jackkweyunga/jek-mobile-timetable/assets/css/style.css" rel="stylesheet">
+```
+
 Add include this script
 ```html
   <script src="https://cdn.jsdelivr.net/gh/jackkweyunga/jek-mobile-timetable/dist/jek-mobile-tmb.js"></script>

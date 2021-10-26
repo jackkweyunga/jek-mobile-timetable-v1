@@ -16,7 +16,7 @@ var ndays = 5;
 var Ttype = "Lecture";
 var search_value = "";
 
-const sidenavs = document.getElementById('tmb-sidebar-nav').children;
+const sidenavs = document.getElementById('tmsidebar-nav').children;
 
 // function unClickAll() {
 //   for (let item of sidenavs){
@@ -97,9 +97,9 @@ for (let item of sidenavs ) {
       /**
        * Sidebar toggle
        */
-      if (select('.toggle-tmb-sidebar-btn')) {
-        on('click', '.toggle-tmb-sidebar-btn', function (e) {
-          select('body').classList.toggle('toggle-tmb-sidebar')
+      if (select('.toggle-sidebar-btn')) {
+        on('click', '.toggle-sidebar-btn', function (e) {
+          select('body').classList.toggle('toggle-sidebar')
         })
       }
 
@@ -135,13 +135,13 @@ for (let item of sidenavs ) {
       /**
        * Toggle .header-scrolled class to #header when page is scrolled
        */
-      let selectHeader = select('#tmb-header')
+      let selectHeader = select('#header')
       if (selectHeader) {
         const headerScrolled = () => {
           if (window.scrollY > 100) {
-            selectHeader.classList.add('tmb-header-scrolled')
+            selectHeader.classList.add('header-scrolled')
           } else {
-            selectHeader.classList.remove('tmb-header-scrolled')
+            selectHeader.classList.remove('header-scrolled')
           }
         }
         window.addEventListener('load', headerScrolled)

@@ -46,10 +46,10 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Page Title
 --------------------------------------------------------------*/
-.tmb-pagetitle {
+.pagetitle {
   margin-bottom: 10px;
 }
-.tmb-pagetitle h1 {
+.pagetitle h1 {
   font-size: 24px;
   margin-bottom: 0;
   font-weight: 600;
@@ -62,32 +62,32 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #cfe2ff;
 }
 
-.tmb-bg-secondary-light {
+.bg-secondary-light {
   background-color: #e2e3e5;
   border-color: #e2e3e5;
 }
 
-.tmb-bg-success-light {
+.bg-success-light {
   background-color: #d1e7dd;
   border-color: #d1e7dd;
 }
 
-.tmb-bg-danger-light {
+.bg-danger-light {
   background-color: #f8d7da;
   border-color: #f8d7da;
 }
 
-.tmb-bg-warning-light {
+.bg-warning-light {
   background-color: #fff3cd;
   border-color: #fff3cd;
 }
 
-.tmb-bg-info-light {
+.bg-info-light {
   background-color: #cff4fc;
   border-color: #cff4fc;
 }
 
-.tmb-bg-dark-light {
+.bg-dark-light {
   background-color: #d3d3d4;
   border-color: #d3d3d4;
 }

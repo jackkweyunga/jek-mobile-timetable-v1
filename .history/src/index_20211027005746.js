@@ -135,13 +135,13 @@ for (let item of sidenavs ) {
       /**
        * Toggle .header-scrolled class to #header when page is scrolled
        */
-      let selectHeader = select('#tmb-header')
+      let selectHeader = select('#header')
       if (selectHeader) {
         const headerScrolled = () => {
           if (window.scrollY > 100) {
             selectHeader.classList.add('tmb-header-scrolled')
           } else {
-            selectHeader.classList.remove('tmb-header-scrolled')
+            selectHeader.classList.remove('header-scrolled')
           }
         }
         window.addEventListener('load', headerScrolled)

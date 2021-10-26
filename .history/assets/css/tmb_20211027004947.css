@@ -46,10 +46,10 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Page Title
 --------------------------------------------------------------*/
-.tmb-pagetitle {
+.pagetitle {
   margin-bottom: 10px;
 }
-.tmb-pagetitle h1 {
+.pagetitle h1 {
   font-size: 24px;
   margin-bottom: 0;
   font-weight: 600;
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #cff4fc;
 }
 
-.tmb-bg-dark-light {
+.bg-dark-light {
   background-color: #d3d3d4;
   border-color: #d3d3d4;
 }

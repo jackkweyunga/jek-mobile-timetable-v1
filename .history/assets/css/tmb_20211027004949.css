@@ -46,10 +46,10 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Page Title
 --------------------------------------------------------------*/
-.tmb-pagetitle {
+.pagetitle {
   margin-bottom: 10px;
 }
-.tmb-pagetitle h1 {
+.pagetitle h1 {
   font-size: 24px;
   margin-bottom: 0;
   font-weight: 600;

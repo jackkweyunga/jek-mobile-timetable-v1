@@ -56,10 +56,10 @@ var content = document.createElement("div")
 content.style = `
         background: white;
         flex: 1;
-        margin-bottom: 25px;
+        margin-bottom: 5px;
         display: flex;
         flex-direction: column;
-        max-height: 100vh;
+        height: 100;
         overflow-y: auto;
         position: relative;
     `;
@@ -276,13 +276,14 @@ export const drawTimeTable = async (fac, ndays = 5, type = 'Seminar') => {
 
             }
 
-            // console.log(times);
+            console.log(times);
             main_content.appendChild(main_content_left)
             main_content.appendChild(main_content_right)
 
             content.innerHTML = "";
             content.appendChild(top_content)
             content.appendChild(main_content)
+            content.appendChild(backToTop)
         }
     })
         .catch((err) => {

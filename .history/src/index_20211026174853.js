@@ -18,14 +18,15 @@ var search_value = "";
 
 const sidenavs = document.getElementById('sidebar-nav').children;
 
-// function unClickAll() {
-//   for (let item of sidenavs){
-//     // console.log((item));
-//     if (item.id) {
-//       item.firstChild.style.background = 'inherit';
-//     }
-//   }
-// }
+function unClickAll() {
+  for (let item of sidenavs){
+    // console.log((item));
+    if (item.id) {
+      item.style.background = 'inherit';
+      item.style.cursor = "pointer";
+    }
+  }
+}
 
 document.getElementById('faculty_search_input').addEventListener('input', (e) => {
   drawTimeTable(e.target.value, ndays, Ttype);
@@ -54,6 +55,11 @@ for (let item of sidenavs ) {
 
     };
 
+    // unclick all
+    unClickAll();
+    item.style.background = '#081126';
+    item.style.color = "#FFFFFF";
+    item.style.cursor = "pointer";
   })
 };
 

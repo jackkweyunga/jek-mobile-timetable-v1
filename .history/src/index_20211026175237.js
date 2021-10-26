@@ -54,6 +54,10 @@ for (let item of sidenavs ) {
 
     };
 
+    // unclick all
+    unClickAll();
+    item.firstChild.style.background = '#4154f1';
+    item.firstChild.style.color = "#FFFFFF";
   })
 };
 

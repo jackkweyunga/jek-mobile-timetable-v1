@@ -16,16 +16,15 @@ var ndays = 5;
 var Ttype = "Lecture";
 var search_value = "";
 
-const sidenavs = document.getElementById('sidebar-nav').children;
+const sidenavs = document.getElementById('sidebar-nav').childNodes;
 
-// function unClickAll() {
-//   for (let item of sidenavs){
-//     // console.log((item));
-//     if (item.id) {
-//       item.firstChild.style.background = 'inherit';
-//     }
-//   }
-// }
+function unClickAll() {
+  sidenavs.forEach((item) => {
+    
+    item.style.background = 'inherit';
+    item.style.cursor = "pointer";
+  })
+}
 
 document.getElementById('faculty_search_input').addEventListener('input', (e) => {
   drawTimeTable(e.target.value, ndays, Ttype);
@@ -36,7 +35,7 @@ const n_map = { "a_day": 1, "three_days": 3, "a_week": 5 }
 
 const Ttypes = ["Lecture", "Seminar", "Practical", "Tutorial"];
 
-for (let item of sidenavs ) {
+sidenavs.forEach((item) => {
   item.addEventListener('click', () => {
     // console.log(item.id, n_map);
 
@@ -54,8 +53,13 @@ for (let item of sidenavs ) {
 
     };
 
+    // unclick all
+    unClickAll();
+    item.style.background = '#081126';
+    item.style.color = "#FFFFFF";
+    item.style.cursor = "pointer";
   })
-};
+});
 
 
 

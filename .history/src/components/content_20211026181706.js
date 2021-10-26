@@ -283,6 +283,7 @@ export const drawTimeTable = async (fac, ndays = 5, type = 'Seminar') => {
             content.innerHTML = "";
             content.appendChild(top_content)
             content.appendChild(main_content)
+            // content.appendChild(backToTop)
         }
     })
         .catch((err) => {

@@ -7,12 +7,12 @@ most reliable digital timetable based on the University of Dar es salaam weekly 
 - [x] simple html setup
 - [x] colorfull look
 - [x] dynamically load the thimetable (stiil from a json file, currently the university timetable is not available)
-- [ ] loading seminars in a separate page.
+- [X] loading seminars in a separate page.
 - [x] responsive sidenav 
-- [ ] functional sidenav
-- [ ] a nice mobile vie
-- [ ] a functional search bar for searching faculties
-- [ ] An alternative easy way to preconfigure a faculty 
+- [X] functional sidenav
+- [X] a nice mobile vie
+- [X] a functional search bar for searching faculties
+- [X] An alternative easy way to preconfigure a faculty 
 - [ ] statefullness and ability to be customized
 
 ##### and still adding more features ...

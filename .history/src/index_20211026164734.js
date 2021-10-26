@@ -62,9 +62,10 @@ sidenavs.forEach((item) => {
 
 
 
-// miscellinious
+  // miscellinious
 
-(function () {
+  (
+    function () {
       "use strict";
 
       /**
@@ -174,5 +175,5 @@ sidenavs.forEach((item) => {
       var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
       })
-})();
+    })();
 

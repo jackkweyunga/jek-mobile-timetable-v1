@@ -2,7 +2,7 @@
 
 const main = document.createElement("main");
 
-main.setAttribute("id", "main");
+main.setAttribute("id", ""main)
 
 // css classes
 var classes = ["main"]

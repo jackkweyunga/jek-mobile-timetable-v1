@@ -58,13 +58,14 @@ sidenavs.forEach((item) => {
     item.style.color = "#FFFFFF";
     item.style.cursor = "pointer";
   })
-});
+})
 
 
 
-// miscellinious
+  // miscellinious
 
-(function () {
+  (
+    function () {
       "use strict";
 
       /**
@@ -174,5 +175,5 @@ sidenavs.forEach((item) => {
       var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
       })
-})();
+    })();
 

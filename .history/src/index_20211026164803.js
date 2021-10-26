@@ -62,9 +62,10 @@ sidenavs.forEach((item) => {
 
 
 
-// miscellinious
+  // miscellinious
 
-(function () {
+  (
+    function () {
       "use strict";
 
       /**

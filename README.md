@@ -24,7 +24,7 @@ It is easy to configure and use. Currently targeted for developers who want to i
 
 Add the following style to the header tag
 ```html
-<link href="https://cdn.jsdelivr.net/gh/jackkweyunga/jek-mobile-timetable/assets/css/style.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/jackkweyunga/jek-mobile-timetable/assets/css/tmb.css" rel="stylesheet">
 ```
 
 Add include this script
@@ -55,6 +55,10 @@ For the simplest use, your htm file will look like this.
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- jek-mobile-timetable css Library -->
+    <link href="https://cdn.jsdelivr.net/gh/jackkweyunga/jek-mobile-timetable/assets/css/tmb.css" rel="stylesheet">
+    
   </head>
   <body>
 

@@ -35,13 +35,7 @@ Add include this script
 In the section/page where you want to add this timetable, add this
 
 ```html
-    <section id="tmb">
-        <section id="tmb-sidenav"></section>
-        <section id="tmb-main">
-            <section id="tmb-topnav"></section>
-            <section id="tmb-content"></section>
-        </section>
-    </section>
+    <div id="tmb"></div>
 ```
 
 For the simplest use, your htm file will look like this.
@@ -62,14 +56,8 @@ For the simplest use, your htm file will look like this.
   </head>
   <body>
 
-    <section id="tmb">
-        <section id="tmb-sidenav"></section>
-        <section id="tmb-main">
-            <section id="tmb-topnav"></section>
-            <section id="tmb-content"></section>
-        </section>
-    </section>
-
+    <!--use the timetable id (tmb) to direct where the timetable appears -->
+    <div id="tmb"></div>
       
     <!-- jek-mobile-timetable JavaScript Library -->
     <script src="https://cdn.jsdelivr.net/gh/jackkweyunga/jek-mobile-timetable/dist/jek-mobile-tmb.js"></script>

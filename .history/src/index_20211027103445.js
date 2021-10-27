@@ -22,8 +22,6 @@ function stopLoading() {
   loader.style.display = "none";
 }
 
-stopLoading();
-
 var ndays = 5;
 var Ttype = "Lecture";
 var search_value = "";

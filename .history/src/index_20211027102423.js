@@ -12,17 +12,9 @@ wrapper.appendChild(sidenav)
 wrapper.appendChild(main);
 main.appendChild(content)
 
-var loader = document.getElementById("tmb-search");
+var loader = document.getElementById("tmb-search")
 
-function startLoading() {
-  loader.style.display = "flex";
-}
-
-function stopLoading() {
-  loader.style.display = "none";
-}
-
-stopLoading();
+loader.s
 
 var ndays = 5;
 var Ttype = "Lecture";
@@ -39,12 +31,8 @@ const sidenavs = document.getElementById('tmb-sidebar-nav').children;
 //   }
 // }
 
-document.getElementById('faculty_search_input').addEventListener('input', async (e) => {
-  startLoading();
-  drawTimeTable(e.target.value, ndays, Ttype).then(()=>{
-    stopLoading();
-  });
-  
+document.getElementById('faculty_search_input').addEventListener('input', (e) => {
+  drawTimeTable(e.target.value, ndays, Ttype);
   search_value = e.target.value;
 });
 

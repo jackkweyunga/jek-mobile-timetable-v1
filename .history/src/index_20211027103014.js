@@ -15,14 +15,14 @@ main.appendChild(content)
 var loader = document.getElementById("tmb-search");
 
 function startLoading() {
-  loader.style.display = "flex";
+  loader.style.display = "none";
 }
 
 function stopLoading() {
   loader.style.display = "none";
 }
 
-stopLoading();
+stopLoading()
 
 var ndays = 5;
 var Ttype = "Lecture";
@@ -41,10 +41,8 @@ const sidenavs = document.getElementById('tmb-sidebar-nav').children;
 
 document.getElementById('faculty_search_input').addEventListener('input', async (e) => {
   startLoading();
-  drawTimeTable(e.target.value, ndays, Ttype).then(()=>{
-    stopLoading();
-  });
-  
+  await drawTimeTable(e.target.value, ndays, Ttype);
+  stopLoading();
   search_value = e.target.value;
 });
 

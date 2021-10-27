@@ -156,6 +156,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Nunito", sans-serif;
 }
 
+.tmb-search {
+  position: absolute;
+}
+
 .tmb-header {
   transition: all 0.5s;
   z-index: 997;
@@ -179,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .tmb-header .search-form {
-  max-width: 70%;
+  max-width: 80%;
 }
 
 .tmb-header .search-form input {
@@ -201,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
 .tmb-header .search-form button {
   border: 0;
   padding: 0;
-  margin-left: -60px;
+  margin-left: -30px;
   background: none;
 }
 .tmb-header .search-form button i {

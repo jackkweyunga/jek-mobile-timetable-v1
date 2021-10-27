@@ -24,6 +24,7 @@ function stopLoading() {
 
 stopLoading();
 
+
 var ndays = 5;
 var Ttype = "Lecture";
 var search_value = "";

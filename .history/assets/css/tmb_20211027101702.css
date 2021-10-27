@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .tmb-header .search-form {
-  max-width: 70%;
+  max-width: 80%;
 }
 
 .tmb-header .search-form input {
@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 .tmb-header .search-form button {
   border: 0;
   padding: 0;
-  margin-left: -60px;
+  margin-left: -30px;
   background: none;
 }
 .tmb-header .search-form button i {
@@ -359,16 +359,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .lds-circle {
   display: flex;
-  padding: 10px;
   transform: translateZ(1px);
 }
 .lds-circle > div {
-  display: flex;
+  display: inline-block;
   width: 24px;
   height: 24px;
-  margin-left: 10px;
+  margin: 8px;
   border-radius: 50%;
-  background: #4154f1;
+  background: #fff;
   animation: lds-circle 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
 }
 @keyframes lds-circle {

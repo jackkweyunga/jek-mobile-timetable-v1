@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
   scrollbar-width: thin;
   scrollbar-color: #aab7cf transparent;
   box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-  background-color: #4986f7;
+  background-color: #225eccd0;
 }
 @media (max-width: 1199px) {
   .tmb-sidebar {

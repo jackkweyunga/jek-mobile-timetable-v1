@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
   scrollbar-width: thin;
   scrollbar-color: #aab7cf transparent;
   box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-  background-color: #4986f7;
+  background-color: #225eccd0;
 }
 @media (max-width: 1199px) {
   .tmb-sidebar {
@@ -272,21 +272,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 5px;
 }
 .tmb-sidebar-nav .nav-heading {
-  display: flex;
-  align-items: center;
-  font-size: 14px;
+  font-size: 11px;
   text-transform: uppercase;
-  padding: 10px 15px;
   color: #c1c8d6;
   font-weight: 600;
+  margin: 10px 0 5px 15px;
 }
 
 .tmb-sidebar-nav .nav-heading i {
-  font-size: 16px;
-  margin-right: 10px;
-  color: #fff6;
+  
 }
-
 .tmb-sidebar-nav .nav-link {
   display: flex;
   align-items: center;
@@ -294,25 +289,25 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   color: #4154f1;
   transition: 0.3;
-  background: inherit;
+  background: #f6f9ff;
   padding: 10px 15px;
   border-radius: 4px;
 }
 .tmb-sidebar-nav .nav-link i {
   font-size: 16px;
   margin-right: 10px;
-  color: #fff;
+  color: #4154f1;
 }
 .tmb-sidebar-nav .nav-link.collapsed {
-  color: #fff;
-  background: inherit;
+  color: #012970;
+  background: #fff;
 }
 .tmb-sidebar-nav .nav-link.collapsed i {
-  color: #c7cdd8;
+  color: #899bbd;
 }
 .tmb-sidebar-nav .nav-link:hover {
   color: #4154f1;
-  background: #cbd0d8;
+  background: #f6f9ff;
 }
 .tmb-sidebar-nav .nav-link:hover i {
   color: #4154f1;

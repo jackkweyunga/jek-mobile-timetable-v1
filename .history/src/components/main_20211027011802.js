@@ -2,7 +2,7 @@
 
 const main = document.createElement("main");
 
-main.setAttribute("id", "tmb-main");
+main.setAttribute("id", "tb-main");
 
 // css classes
 var classes = ["tmb-main"]

@@ -58,7 +58,7 @@ content.style = `
         margin-bottom: 5px;
         display: flex;
         flex-direction: column;
-        max-height: 100vh;
+        max-height: 90vh;
         overflow-y: auto;
         position: relative;
     `;

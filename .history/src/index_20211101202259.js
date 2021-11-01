@@ -3,14 +3,13 @@
 
 import wrapper from "./components/wrapper.js";
 import main from "./components/main.js";
-import righttopnav from "./components/topnav.js";
-import topnav from "./components/rightsidenav";
+import topnav from "./components/topnav.js";
+import topnav from "./components/";
 import sidenav from "./components/sidenav.js";
 import { default as content, drawTimeTable } from "./components/content.js";
 
 wrapper.appendChild(topnav)
 wrapper.appendChild(sidenav)
-wrapper.appendChild(righttopnav)
 wrapper.appendChild(main);
 main.appendChild(content)
 

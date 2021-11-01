@@ -1,9 +1,9 @@
 import topnav_html from "./html/rightsidenav.html";
 
-const rightSidenav = document.createElement("aside")
+const sidenav = document.createElement("aside")
 
 // css classes
-var classes = ["tmb-right-sidebar"]
+var classes = ["tmb-sidebar"]
 classes.forEach(x => rightSidenav.classList.add(x));
 
 // html template

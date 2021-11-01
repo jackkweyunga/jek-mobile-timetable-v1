@@ -182,8 +182,8 @@ for (let item of sidenavs) {
 
   var render_lists = function (lists) {
     var li = "";
-    for (let index of lists) {
-      li += "<li>" + index + "</li>";
+    for (index in lists) {
+      li += "<li>" + lists[index] + "</li>";
     }
     ul.innerHTML = li;
   }
@@ -191,11 +191,11 @@ for (let item of sidenavs) {
   render_lists(users);
 
   // lets filters it
-  var input = document.getElementById('filter_users');
+  input = document.getElementById('filter_users');
 
   var filterUsers = function (event) {
-    var keyword = input.value.toLowerCase();
-    var filtered_users = users.filter(function (user) {
+    keyword = input.value.toLowerCase();
+    filtered_users = users.filter(function (user) {
       user = user.toLowerCase();
       return user.indexOf(keyword) > -1;
     });

@@ -1,0 +1,52 @@
+<!-- ======= Header ======= -->
+
+<div class="d-flex align-items-center justify-content-between">
+    <a href="../" class="tmb-logo d-flex align-items-center">
+        <i class="bi bi-layout-wtf"></i>
+        <span class="d-none d-lg-block">Udsm Timetable</span>
+    </a>
+    <i class="bi bi-list toggle-tmb-sidebar-btn"></i>
+</div><!-- End Logo -->
+
+<div class="search-bar">
+    <form class="search-form d-flex align-items-center">
+        <input type="text" id="faculty_search_input" placeholder="Search faculty" title="Enter keyword">
+        <button id="tmb-search">
+            <div class="lds-circle">
+                <div></div>
+            </div>
+        </button>
+    </form>
+</div>
+
+
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+        <span class="caret"></span></button>
+    <ul class="dropdown-menu" style="z-index: 111;">
+        <input class="form-control" id="filter-programmes" type="text" placeholder="Search..">
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">JavaScript</a></li>
+        <li><a href="#">jQuery</a></li>
+        <li><a href="#">Bootstrap</a></li>
+        <li><a href="#">Angular</a></li>
+    </ul>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        $("#myInput").on("keyup", function () {
+            var value = $(this).val().toLowerCase();
+            $(".dropdown-menu li").filter(function () {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+    });
+</script>
+
+<!-- End Search Bar -->
+
+
+<!-- End Header -->

@@ -183,7 +183,7 @@ for (let item of sidenavs) {
   var render_lists = function (lists) {
     var li = "";
     for (let index of lists) {
-      li += "<li>" + index + "</li>";
+      li += "<li>" + lists[index] + "</li>";
     }
     ul.innerHTML = li;
   }
@@ -195,7 +195,7 @@ for (let item of sidenavs) {
 
   var filterUsers = function (event) {
     var keyword = input.value.toLowerCase();
-    var filtered_users = users.filter(function (user) {
+    filtered_users = users.filter(function (user) {
       user = user.toLowerCase();
       return user.indexOf(keyword) > -1;
     });

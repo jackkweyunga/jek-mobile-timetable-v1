@@ -183,7 +183,7 @@ for (let item of sidenavs) {
   var render_lists = function (lists) {
     var li = "";
     for (let index of lists) {
-      li += "<li>" + index + "</li>";
+      li += "<li>" + lists[index] + "</li>";
     }
     ul.innerHTML = li;
   }

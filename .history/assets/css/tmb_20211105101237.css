@@ -452,7 +452,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 24px;
   margin-left: 10px;
   border-radius: 50%;
-  background: #ffffff;
+  background: #;
   animation: lds-circle 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
 }
 @keyframes lds-circle {

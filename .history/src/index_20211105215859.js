@@ -6,8 +6,7 @@ import main from "./components/main.js";
 import righttopnav from "./components/topnav.js";
 import topnav from "./components/rightsidenav";
 import sidenav from "./components/sidenav.js";
-import { default as content, drawTimeTable } from "./components/content.js";
-import api_root from "./services/data.js";
+import { default as content, drawTimeTable, api_root } from "./components/content.js";
 import axios from "axios";
 
 wrapper.appendChild(topnav)

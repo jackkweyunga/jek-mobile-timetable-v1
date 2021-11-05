@@ -7,7 +7,6 @@ import righttopnav from "./components/topnav.js";
 import topnav from "./components/rightsidenav";
 import sidenav from "./components/sidenav.js";
 import { default as content, drawTimeTable } from "./components/content.js";
-import api_root from "./services/data.js";
 import axios from "axios";
 
 wrapper.appendChild(topnav)
@@ -219,7 +218,7 @@ document.addEventListener("itemInserted", function (e) {
   /**
    * filter
    */
-  var programmes = (await axios(`${api_root}programmes_namelist/`)).data["results"];
+  var programmes = (await axios(programmes_namelist/')).data["results"];
 
   var ul = document.getElementById("programmes-list");
 

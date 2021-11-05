@@ -4,8 +4,7 @@ import * as tmb from "../interfaces/programme.js";
 // import ghjson from "../../assets/files/faculty.json";
 
 // const api_root = "https://jtu-api.herokuapp.com/api/v1/";
-
-const api_root = "https://udsmtt.tk/api/v1/";
+// const api_root = "https://jtu-api.herokuapp.com/api/v1/";
 
 // const api_root = "http://127.0.0.1:8000/api/v1/";
 

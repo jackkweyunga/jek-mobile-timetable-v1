@@ -39,5 +39,5 @@ export const Data = async (pid, pyear) => {
     var all = data["events"][pyear];
     var events = all.map(process, all);
 
-    return new tmb.Programme(events, data["name"]);
+    return new tmb.Programme(events, data[""]);
 }

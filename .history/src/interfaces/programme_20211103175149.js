@@ -27,6 +27,5 @@ export class Programme {
         name
     ) { 
         this.events = events;
-        this.name = name;
     }
 }

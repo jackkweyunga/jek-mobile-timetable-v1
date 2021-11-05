@@ -45,13 +45,10 @@ const SelectionListener = (pid, pyear) => {
 const filterListener = (_d, _t) => {
   startLoading();
   var from_local = window.localStorage.getItem('selected-programme');
-  // console.log(from_local);
-  if (from_local !== null) {
-    var _i = from_local.split("-")
-    var id = Number(_i[0])
-    var year = _i[1] + " year";
-  }
-    
+  console.log(from_local);
+  var _i = from_local.split("-")
+  var id = Number(_i[0])
+  var year = _i[1] + " year";
   drawTimeTable(id, year, _d, _t).then(() => {
     stopLoading();
   });

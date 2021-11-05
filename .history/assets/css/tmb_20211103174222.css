@@ -242,10 +242,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 1200px) {
   .toggle-tmb-right-sidebar #tmb-main, .toggle-tmb-right-sidebar #tmb-footer {
-    margin-right: 0;
+    margin-left: 0;
   }
   .toggle-tmb-right-sidebar .tmb-right-sidebar {
-    right: -300px;
+    right: 300px;
   }
 }
 

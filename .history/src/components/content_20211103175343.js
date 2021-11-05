@@ -109,7 +109,7 @@ export const drawTimeTable = async (pid, pyear, ndays = 5, type = 'Seminar') => 
 
         if (data !== null | undefined) {
 
-            document.getElementById('selected-programme').innerText= data.name;
+            document.getElementById('selected-programme').innerText='${el["name"]}
 
             var top_content = document.createElement('div');
             var main_content = document.createElement('div');

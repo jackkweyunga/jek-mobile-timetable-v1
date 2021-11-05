@@ -65,7 +65,7 @@ content.style = `
 
 // const colors = ["#FF69B4", "#CF9FFF", "#ADD8E6", "#FFF8DC", "#ff9166", "#66ffe8", "#ef66ff"]
 
-const colors = ["#d520b7", "#a03d1a", "#8c2e4f", "#771f84", "#8462bc", "#5688c7", "#f97910", "#24466b", "#16253b"]
+const colors = ["#d520b7 50%", "#a03d1a", "#8c2e4f", "#771f84", "#8462bc", "#5688c7", "#f97910", "#24466b", "#16253b"]
 
 var make_styles = (top_content, main_content, main_content_right, main_content_left) => {
 
@@ -109,8 +109,6 @@ export const drawTimeTable = async (pid, pyear, ndays = 5, type = 'Seminar') => 
 
         if (data !== null | undefined) {
 
-            console.log(data);
-
             document.getElementById('selected-programme').innerText= data.name;
 
             var top_content = document.createElement('div');
@@ -125,21 +123,16 @@ export const drawTimeTable = async (pid, pyear, ndays = 5, type = 'Seminar') => 
 
             const faculty_codes = []
 
-            for (let c of data.events) {
-                faculty_codes.push(c.group);
-            }
-
-            console.log(bgcolors);
-            console.log(faculty_codes);
-            var for_color_codes = new Set(faculty_codes);
-            for_color_codes = [...for_color_codes]
-
             let k_ = 0;
-            for (let c of for_color_codes) {
-                let show = { name: c, color: colors[k_] }
+            for (let c of data.events) {
+                let show = { name: c.group, color: colors[k_] }
                 bgcolors.push(show)
+                faculty_codes.push(c.group);
                 k_++;
             }
+
+            // console.log(bgcolors);
+            // console.log(faculty_codes);
 
             for (let i = 0; i < ndays; i++) {
                 let day = day_column()

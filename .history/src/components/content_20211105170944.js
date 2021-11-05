@@ -125,21 +125,18 @@ export const drawTimeTable = async (pid, pyear, ndays = 5, type = 'Seminar') => 
 
             const faculty_codes = []
 
+            let k_ = 0;
             for (let c of data.events) {
+                let show = { name: c.group, color: colors[k_] }
+                bgcolors.push(show)
                 faculty_codes.push(c.group);
+                k_++;
             }
 
             console.log(bgcolors);
             console.log(faculty_codes);
-            var for_color_codes = new Set(faculty_codes);
-            for_color_codes = [...for_color_codes]
+            for_color_codes = new Set
 
-            let k_ = 0;
-            for (let c of for_color_codes) {
-                let show = { name: c, color: colors[k_] }
-                bgcolors.push(show)
-                k_++;
-            }
 
             for (let i = 0; i < ndays; i++) {
                 let day = day_column()

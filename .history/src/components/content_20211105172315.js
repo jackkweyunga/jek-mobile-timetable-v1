@@ -136,7 +136,7 @@ export const drawTimeTable = async (pid, pyear, ndays = 5, type = 'Seminar') => 
 
             let k_ = 0;
             for (let c of for_color_codes) {
-                let show = { name: c, color: colors[k_] }
+                let show = { name: c.group, color: colors[k_] }
                 bgcolors.push(show)
                 k_++;
             }

@@ -1,4 +1,4 @@
-# jek-mobile-timetable
+# jek-mobile-timetable-v1
 most reliable digital timetable based on the University of Dar es salaam weekly study timetable.
 
 # Features (future and present)

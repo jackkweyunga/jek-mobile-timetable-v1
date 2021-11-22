@@ -100,5 +100,9 @@ Any new ideas plz reach out.
 
 email [jackkweyunga@gmail.com](https://jackkweyunga@gmail.com)
 
+portfolio https://jackkweyunga.works
+
+visit https://udsmtt.tk to find out more about the timetable
+
 # Liscence
 MIT

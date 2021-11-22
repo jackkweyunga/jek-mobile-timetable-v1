@@ -86,8 +86,7 @@ For the simplest use, your htm file will look like this.
 
 #### Something like this will be visible
 
-
-![new timetable](https://user-images.githubusercontent.com/75433841/138961247-a5e6f541-1df3-4127-8b03-ae6c8af16851.png)
+![image](https://user-images.githubusercontent.com/75433841/142921120-068c60e5-e886-4469-bde0-18804f309faa.png)
 
 # ...
 
